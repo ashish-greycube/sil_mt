@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sil_mt *.css
+recursive-include sil_mt *.csv
+recursive-include sil_mt *.html
+recursive-include sil_mt *.ico
+recursive-include sil_mt *.js
+recursive-include sil_mt *.json
+recursive-include sil_mt *.md
+recursive-include sil_mt *.png
+recursive-include sil_mt *.py
+recursive-include sil_mt *.svg
+recursive-include sil_mt *.txt
+recursive-exclude sil_mt *.pyc
